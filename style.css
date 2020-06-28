@@ -1,0 +1,177 @@
+.navbar-expand-lg{
+	background: #FEFEFE !important;
+	border: 0;
+	font-family: Muli;
+
+}
+html, body {
+	overflow-x: hidden;
+}
+body{
+	font-family: Muli;
+	height: 100%;
+	width: 100%;
+	color: #222;
+}
+
+.navbar{
+	box-shadow: 2px 6px 10px rgba(229, 229, 229, 0.37);
+	padding: .8rem;
+}
+
+.navbar-nav li{
+	padding-right: 2.5rem;
+}
+
+.nav-link{
+	font-size: 16px !important;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: Muli;
+	font-size: 30px;
+}
+p, li{
+   color: #5B5B5B;
+   font-size: 16px;
+   font-family: Muli;
+}
+
+#aboutus{
+	padding: 50px 0 30px 0;
+	text-align: center;
+	margin-top: 40px
+}
+
+#aboutus{
+	font-size: 16px;
+	font-family: Muli;
+	line-height: 30px;
+	color: #5B5B5B;
+}
+#contact img{
+	font-size: 24px;
+    line-height: 30px;
+    color: #0052FF;
+}
+
+.blog-img{
+	position: relative;
+    width: 85px;
+    height: 80px;
+}
+
+.addy{
+	font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #5B5B5B;
+}
+
+#subscribe{
+    padding: 50px 0 30px 0;
+	text-align: center;
+	margin-top: 40px
+	background: #F9F9F9;
+}
+
+#subscribe a{
+	box-sizing: border-box;
+    padding: 15px 30px
+    color: #0052FF;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+#aboutus a{
+    box-sizing: border-box;
+    padding: 15px 30px
+    color: #0052FF;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.img-fluid-1{
+   position :relative;
+}
+
+.img-fluid-2{
+	width: 478px;
+    height: 430px;
+    position: absolute;
+}
+
+.details{
+	font-weight: 600;
+font-size: 30px;
+line-height: 38px;
+color: #202020;
+font-family: Muli;
+}
+
+.details-1{
+	color: #202020;
+	font-family: Muli;
+	font-style: italic;
+	font-size: 16px;
+}
+
+
+#services li{
+	position: relative;
+	list-style: none;
+}
+
+#services li:before{
+	position: absolute;
+	content: "";
+	width: 14px;
+	height: 14px;
+	border: 1px solid #0052FF;
+    left: -10%;
+    top: 25%;
+}
+
+.fa-quote-left{
+	color: #0052FF;
+}
+
+#testimonial{
+	background: #F9F9F9;
+}
+
+#subscribe{
+	background: #F9F9F9;
+}
+
+.days{
+	font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    color: #202020;
+}
+
+#footer{
+	background: #0052FF;
+	color: white;
+	font-size: small !important;
+}
+
+.form {
+	height: 70px !important;
+	padding: 1.2rem 1.3rem !important;
+	border-radius: 0px !important;
+	box-shadow: none !important;
+	border: 1px solid #e5e5e5 !important;
+	font-size: 14px;
+}
+.form:hover,
+.form:focus,
+.form:active {
+	box-shadow: none !important;
+	border: 1px solid#5b5b5b !important;
+}
+
+.fa-2x{
+padding-right: 10px;
+}
