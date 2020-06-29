@@ -12,13 +12,13 @@
 
 <body>
 	<!---Navigation-->
-<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top navigation">
 	<div class="container-fluid">
-		<a class="navbar-brand" href="#"><img src="images/Dentlab.svg"></a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+		<a class="navbar-brand" href="#" data-aos="zoom-out"><img src="images/Dentlab.svg"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
-		<div class="collapse navbar-collapse" data-aos="fade-up" id="navbarResponsive">
+		<div class="collapse navbar-collapse" data-aos="fade-down" id="navbarResponsive">
            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
            	   <li class="nav-item active`">
            	  	<a class="nav-link" href="#hero">Home</a>
@@ -109,7 +109,7 @@
 <!--Testimonial-->
 <section id="testimonial">
 	<div class="container-fluid padding">
-		<div class="row text-center padding" data-aos = "fade-up">
+		<div class="row text-center padding" data-aos = "fade-down">
 			<div class="col-12 py-5 mt-5">
 				<h2> What people are saying</h2>
 			</div>
@@ -135,7 +135,7 @@
 <!--Book an appointment-->
 <section id="appointment">
  <div class="container-fluid offset py-xs-1 p-md-5">
-	<div class="row" data-aos = "fade-in">
+	<div class="row" data-aos = "fade-up">
 		<div class="col-md-6 my-5">
 			<h2>Book an appointment</h2>
 			<br>
@@ -222,9 +222,9 @@
 
 <!--Three column footer-->
 <section id="contact">
-	<div class="row my-md-5 my-sm-5 px-4">
+	<div class="row my-md-5 my-sm-5 px-4" data-aos = "fade-in">
             <div class="col-md-4 my-3" >
-                <img src="images/Dentlab.svg" class="mb-3 mt-1" alt="">
+                <img src="images/Dentlab.svg" class="mb-3 mt-1" alt="" data-aos="zoom-out">
                 <p class="my-3">
                     The one-stop medical studio known around the world for our excellence in providing 
                     the best care and treatments for your teeth and general dental lifestyle.
@@ -233,28 +233,28 @@
             <div class="col-md-4 my-3">
                 <p class="mb-4 days">Latest blog post</p>
                 <div class="group d-flex my-lg-1 my-1">
-                    <img src="images/Rectangle 20.png" class="blog-img mr-3" alt="">
+                    <img src="images/Rectangle 20.png" class="blog-img mr-3" alt="" data-aos = "fade-down">
                     <div class="details">
                         <p>Eating the right meal for your teeth</p>
                         <p class="text-secondary">26/06/2020</p>
                     </div>
                 </div>
                 <div class="group d-flex my-lg-1 my-1">
-                    <img src="images/Rectangle 21.png" class="blog-img mr-3" alt="">
+                    <img src="images/Rectangle 21.png" class="blog-img mr-3" alt="" data-aos = "fade-down">
                     <div class="details">
                         <p>Eating the right meal for your teeth</p>
                         <p class="text-secondary">26/06/2020</p>
                     </div>
                 </div>
                 <div class="group d-flex my-lg-1 my-1">
-                    <img src="images/Rectangle 22.svg" class="blog-img mr-3" alt="">
+                    <img src="images/Rectangle 22.svg" class="blog-img mr-3" alt="" data-aos = "fade-down">
                     <div class="details">
                         <p>Eating the right meal for your teeth</p>
                         <p class="text-secondary">26/06/2020</p>
                     </div>          
                 </div>
             </div>
-            <div class="col-md-4 my-3">
+            <div class="col-md-4 my-3" data-aos = "fade-left">
                 <p class="days mb-3">Contact Us</p>
                     <p><i class="fa fa-map-marker fa-2x"></i>2278 Oak Street, New York</p>
                     <p><i class="fa fa-phone fa-2x" aria-hidden="true"></i>315-396-5325</p>
@@ -286,7 +286,7 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<script>
         AOS.init( {
-        	duration: 700
+        	duration: 900
         });
     </script>
 

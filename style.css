@@ -25,6 +25,17 @@ body{
 
 .nav-link{
 	font-size: 16px !important;
+	color: #5b5b5b !important;
+}
+
+.navbar-toggler {
+	outline: none !important;
+	border: none !important;
+}
+.nav-link.active,
+.nav-link:hover,
+.nav-link:focus {
+	color: #0052ff !important;
 }
 
 h1,h2,h3,h4,h5,h6{
