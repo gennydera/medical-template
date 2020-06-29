@@ -1,2 +1,2 @@
 # medical-template
-genmedical.netlify.com
+https://gennymedical.netlify.app/
