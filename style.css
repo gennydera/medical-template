@@ -114,10 +114,10 @@ p, li{
 
 .details{
 	font-weight: 600;
-font-size: 30px;
-line-height: 38px;
-color: #202020;
-font-family: Muli;
+    font-size: 30px;
+    line-height: 38px;
+    color: #202020;
+    font-family: Muli;
 }
 
 .details-1{
@@ -139,8 +139,6 @@ font-family: Muli;
 	width: 14px;
 	height: 14px;
 	border: 1px solid #0052FF;
-    left: -10%;
-    top: 25%;
 }
 
 .fa-quote-left{
